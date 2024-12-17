@@ -28,10 +28,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Harden Runner
-        uses: step-security/harden-runner@main
-        with:
-          egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
+      # - name: Harden Runner
+      #   uses: step-security/harden-runner@main
+      #   with:
+      #     egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
       - name: Checkout
         uses: actions/checkout@main
       - name: 🐍 Set up Python
