@@ -94,7 +94,6 @@ doc = [
   "albumentations",
   "numba",
   "timm",
-  "programoutput",
   "sphinx-reredirects",
 ]
 
