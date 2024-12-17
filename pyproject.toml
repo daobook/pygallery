@@ -1,0 +1,137 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core"]
+
+[project]
+authors = [{name = "xinetzone", email = "735613050@qq.com"}]
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dynamic = ["version", "description"]
+license = {file = "LICENSE"}
+name = "pybook"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+  "d2py"
+]
+
+maintainers = [
+  {name = "xinetzone", email = "735613050@qq.com"},
+]
+
+[project.urls]
+Home = "https://github.com/xinetzone/pybook"
+
+[project.optional-dependencies]
+doc = [
+  "fabric",
+  "termcolor",
+  "sphinx",
+  "docutils",
+  "sphinxcontrib-bibtex",
+  "sphinxext-opengraph",
+  "sphinxcontrib-youtube",
+  "sphinx-favicon",
+  "xyzstyle",
+  "ablog",
+  "pydata-sphinx-theme>=0.7.2",
+  "sphinx-book-theme",
+  "feedgen",
+  "sphinx_packaging",
+  "ipywidgets>=7.0.0",
+  "myst-nb",
+  "sphinxcontrib-websupport",
+  "sphinx-thebe",
+  "sphinx-copybutton",
+  "sphinx-comments",
+  "plotly",
+  "pandas",
+  "matplotlib",
+  "sphinxcontrib-mermaid",
+  "sphinx-design",
+  "sphinx-automodapi",
+  "sphinxext-rediraffe",
+  "sphinxcontrib-bibtex",
+  # "plotly-geo",
+  "sphinx-plotly-directive",
+  "dash",
+  "html5tagger",
+  "python-docx",
+  "sphinx-sitemap",
+  "sphinx-packaging",
+  "bokeh",
+  "ipympl",
+  "ipykernel",
+  "ipyleaflet",
+  "jupyter-client",
+  "jupyter-packaging",
+  "sphinx-jsonschema",
+  # 'jupyterlite-sphinx',
+  # "jupyterlite-xeus",
+  # "xeus-python",
+  # "jupyterlite-core[all]",
+  # "starlette",
+  # "gradio",
+  # "gradio-client",
+  # "fastapi",
+  # "httpx",
+  # "jupyterlite-pyodide-kernel",
+  # "voici",
+  # "jupyterlab",
+  # "jupyter_server",
+  # "jupyterlab_server",
+  "sphinx-autoapi",
+  "libarchive-c",
+  "sphinxcontrib-katex",
+  "ipympl",
+  "sphinx-proof",
+  # MMLab
+  "mmcv",
+  "mmengine",
+  "terminaltables",
+  "pycocotools",
+  "shapely",
+  "albumentations",
+  "numba",
+  "timm",
+  "programoutput",
+  "sphinx-reredirects",
+]
+
+dev = [
+  "pdm",
+  "pygame",
+  "gymnasium",
+  # "gym-multigrid",
+  "PyGithub[integrations]",
+  "bytecode",
+  "numpy",
+  "toml",
+  "fsspec",
+  "pyarrow",
+  "invoke",
+  "openpyxl",
+  "rich[jupyter]",
+  "grpcio",
+  "absl-py",
+  "ping3",
+  "paramiko",
+  "prefect",
+  "controlflow",
+  "tables",
+]
+
+gui = [
+  "PySide6",
+]
+
+[tool.flit.module]
+name = "pybook"
+
+[tool.flit.sdist]
+# include = ["doc/"]
+exclude = ['doc', '.git', '.github', 'output']
+
+[pypi.extra]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+# verify_ssl = false

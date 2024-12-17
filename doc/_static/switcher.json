@@ -1,0 +1,12 @@
+[
+  {
+    "name": "main",
+    "version": "main",
+    "url": "https://xinetzone.github.io/pybook/"
+  },
+  {
+    "name": "d2py",
+    "version": "latest",
+    "url": "https://pybookx.readthedocs.io/zh-cn/latest/"
+  }
+]
