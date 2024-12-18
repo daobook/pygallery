@@ -1,0 +1,7 @@
+# snippet
+
+```{toctree}
+:glob:
+
+*
+```

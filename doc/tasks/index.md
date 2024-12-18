@@ -6,4 +6,6 @@
 prefect/index
 controlflow/index
 manim/index
+pycairo/index
+nbgrader/index
 ```

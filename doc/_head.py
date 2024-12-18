@@ -59,7 +59,6 @@ extensions = [
     "manim.utils.docbuild.manim_directive",
     "manim.utils.docbuild.autocolor_directive",
     "manim.utils.docbuild.autoaliasattr_directive",
-    "sphinxcontrib.programoutput",
     "sphinx_reredirects"
 ]
 
@@ -161,6 +160,8 @@ intersphinx_mapping = {
     "mmengine": ("https://mmengine.readthedocs.io/zh-cn/latest", None),
     "tables": ("https://www.pytables.org", None),
     "numpy": ("https://numpy.org/doc/stable/", None),
+    "pycairo": ("https://pycairo.readthedocs.io/en/latest/", None),
+    "nbgrader": ("https://nbgrader.readthedocs.io/en/stable/", None)
 }
 
 # Add any paths that contain templates here, relative to this directory.

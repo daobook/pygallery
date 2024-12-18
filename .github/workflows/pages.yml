@@ -52,6 +52,7 @@ jobs:
           pip install .[doc,dev,gui] --upgrade
           conda install -c conda-forge pandoc compilers cppyy
           conda install -c conda-forge ffmpeg manim
+          conda install -c conda-forge nbgrader
           pip install manim
           invoke doc
       - name: Setup Pages

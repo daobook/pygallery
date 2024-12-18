@@ -1,0 +1,7 @@
+# IPython
+
+```{toctree}
+:glob:
+
+*
+```
