@@ -9,3 +9,6 @@ Thematic Guides
    configuration
    deep_dive
    add_voiceovers
+   basic_example_scenes
+   FirstStepswithManim
+   v0.11.0 Release Tour
