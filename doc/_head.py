@@ -21,6 +21,7 @@ extensions = [
     # "IPython.sphinxext.ipython_console_highlighting",
     "ablog",
     "sphinx.ext.graphviz",
+    "sphinx.ext.doctest",
     "myst_nb",
     # "nbsphinx",  
     "sphinx.ext.extlinks",
@@ -59,7 +60,9 @@ extensions = [
     "manim.utils.docbuild.manim_directive",
     "manim.utils.docbuild.autocolor_directive",
     "manim.utils.docbuild.autoaliasattr_directive",
-    "sphinx_reredirects"
+    "sphinx_reredirects",
+    "sphinxcontrib.programoutput",
+    "sphinx.ext.inheritance_diagram",
 ]
 
 myst_enable_extensions = [

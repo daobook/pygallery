@@ -95,6 +95,7 @@ doc = [
   "numba",
   "timm",
   "sphinx-reredirects",
+  "sphinxcontrib-programoutput",
 ]
 
 dev = [
