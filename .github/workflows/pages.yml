@@ -45,8 +45,6 @@ jobs:
           sudo apt-get install graphviz
           sudo apt-get update && sudo apt-get upgrade
           sudo apt install build-essential python3-dev libcairo2-dev libpango1.0-dev ffmpeg
-          sudo apt-get install texlive-full texlive-xetex texlive-fonts-recommended texlive-plain-generic
-          sudo apt install texlive-latex-extra
           pip install --upgrade pip
           conda install -c conda-forge box2d-py
           pip install "gymnasium[all]"

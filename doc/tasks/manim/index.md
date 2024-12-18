@@ -5,7 +5,6 @@
 
 ```{toctree}
 quickstart
-examples
 output_and_config
 building_blocks
 guides/index
