@@ -11,4 +11,4 @@ Thematic Guides
    add_voiceovers
    basic_example_scenes
    FirstStepswithManim
-   v0.11.0 Release Tour
+   v0.11.0ReleaseTour
