@@ -16,6 +16,7 @@ TensorFlow <https://xinetzone.github.io/tensorflow-book/>
 xbook <https://xinetzone.github.io/xbook/>
 tkinter/index
 qt/index
+ModernGL/index
 gym/index
 multigrid/index
 drlhp/index

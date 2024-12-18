@@ -46,13 +46,11 @@ jobs:
           sudo apt-get update && sudo apt-get upgrade
           sudo apt install build-essential python3-dev libcairo2-dev libpango1.0-dev ffmpeg
           pip install --upgrade pip
-          conda install anaconda::swig
           conda install -c conda-forge box2d-py
           pip install "gymnasium[all]"
           pip install .[doc,dev,gui] --upgrade
           conda install -c conda-forge pandoc compilers cppyy
           conda install -c conda-forge ffmpeg manim
-          conda install -c conda-forge nbgrader
           pip install manim
           invoke doc
       - name: Setup Pages
