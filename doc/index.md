@@ -14,6 +14,8 @@ jupyter/index
 compiler
 topics/index
 posts/index
+DaoField <https://xinetzone.github.io/DaoField/>
+faqs/index
 news/index
 about/index
 ```

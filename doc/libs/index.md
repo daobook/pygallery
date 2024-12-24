@@ -7,6 +7,7 @@ typing
 contextvars/index
 sched
 IPython/index
+ipywidgets/index
 pil/index
 numpy/index
 matplotlib/index

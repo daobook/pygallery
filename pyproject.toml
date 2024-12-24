@@ -1,26 +1,25 @@
-[build-system]
-build-backend = "flit_core.buildapi"
-requires = ["flit_core"]
-
 [project]
-authors = [{name = "xinetzone", email = "735613050@qq.com"}]
-classifiers = ["License :: OSI Approved :: Apache Software License"]
-dynamic = ["version", "description"]
-license = {file = "LICENSE"}
-name = "pybook"
-readme = "README.md"
-requires-python = ">=3.10"
-
-dependencies = [
-  "d2py"
+name = "pygallery"
+version = "0.0.1"
+description = "收录一些有趣的 Python 库和项目"
+authors = [
+    {name = "xinetzone", email = "735613050@qq.com"},
 ]
-
+requires-python = ">=3.10"
+readme = "README.md"
+license = {file = "LICENSE"}
 maintainers = [
   {name = "xinetzone", email = "735613050@qq.com"},
 ]
+dependencies = [
+    "xyzstyle",
+    "sphinx",
+    "taolib",
+]
 
 [project.urls]
-Home = "https://github.com/xinetzone/pybook"
+Repository = "https://github.com/xinetzone/pygallery"
+Documentation = "https://taolib.readthedocs.io/"
 
 [project.optional-dependencies]
 doc = [
@@ -125,13 +124,13 @@ gui = [
   "PySide6",
 ]
 
-[tool.flit.module]
-name = "pybook"
+flows = [
+    "invoke",
+]
 
-[tool.flit.sdist]
-# include = ["doc/"]
-exclude = ['doc', '.git', '.github', 'output']
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
 
-[pypi.extra]
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-# verify_ssl = false
+[tool.pdm]
+distribution = true

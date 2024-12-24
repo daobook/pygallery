@@ -1,6 +1,7 @@
 # 主题手册
 
 ```{toctree}
+sphinx/index
 concurrent/index
 arrow/index
 pytables/index

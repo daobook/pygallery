@@ -25,6 +25,7 @@ nb_execution_excludepatterns = [
     "libs/numpy/**/**",
     "libs/matplotlib/**/**",
     "libs/qt/**/**",
+    "libs/ipywidgets/**/**",
     "topics/**/**",
 ]
 nb_execution_excludepatterns.extend([ 
@@ -58,12 +59,12 @@ logger = logging.getLogger(project)
 
 def skip_submodules(app, what, name, obj, skip, options):
     # if what == "module":
-    #     if name in ['d2py.timeitx']:
+    #     if name in ['tao.timeitx']:
     #         skip = True
     # if what == "package":
-    #     if name in ['d2py.utils']:
+    #     if name in ['tao.utils']:
     #         skip = True
-    if 'd2py.utils' in name or 'd2py.timeitx' in name or "d2py.analysis" in name:
+    if 'tao.utils' in name or 'tao.timeitx' in name or "tao.analysis" in name:
         skip = True
     # logging.debug(f"skip_submodules: {what, name, obj, skip, options}")
     return skip

@@ -5,4 +5,5 @@ helloworld
 thebe/index
 autoapi/index
 sphinx-proof/index
+myst-nb/index
 ```
