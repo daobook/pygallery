@@ -1,16 +1,10 @@
-import pybook
-from d2py.utils.log_config import config_logging
 # -- Project information -----------------------------------------------------
 
-project = 'pybook'
+project = 'pygallery'
 copyright = '2021, xinetzone'
 author = 'xinetzone'
 
-# The full version, including alpha/beta/rc tags
-release = pybook.__version__
-html_baseurl = 'https://daobook.github.io/pybook'
-# 配置日志信息
-config_logging(f"{project}.log", project)
+html_baseurl = 'https://daobook.github.io/pygallery'
 
 # -- General configuration ---------------------------------------------------
 
@@ -82,7 +76,7 @@ comments_config = {
     "hypothesis": True,
     "dokieli": False,
     "utterances": {
-        "repo": "daobook/pybook",
+        "repo": "daobook/pygallery",
         "optional": "config",
     }
 }
@@ -204,7 +198,7 @@ gettext_compact = False  # optional.
 extra_navbar = """<div>
 版权所有 © 2021 <a href="https://daobook.github.io/">xinetzone</a></div>
 <div>由 <a href="https://daobook.github.io/demo-book/">EBP</a> 提供技术支持</div>
-<a href="https://pybook.readthedocs.io/zh/latest/">版本切换</a>
+<a href="https://pygallery.readthedocs.io/zh-cn/latest/">版本切换</a>
 """
 autosummary_generate = True
 
@@ -215,8 +209,8 @@ html_theme_options = {
     # 默认情况下，编辑按钮将指向版本库的根。
     # 如果你的文档被托管在一个子文件夹中，请使用以下配置：
     "path_to_docs": "doc/",  # 文档的路径，默认 `docs/``
-    "github_url": "https://github.com/daobook/pybook",
-    "repository_url": "https://github.com/daobook/pybook",
+    "github_url": "https://github.com/daobook/pygallery",
+    "repository_url": "https://github.com/daobook/pygallery",
     "repository_branch": "main",  # 文档库的分支，默认 `master`
     # -- 在导航栏添加一个按钮，链接到版本库的议题 ------------------------------
     # （与 `repository_url` 和 `repository_branch` 一起使用）
@@ -245,7 +239,7 @@ html_theme_options = {
     # 重命名页内目录名称
     # "toc_title": "导航",
     "launch_buttons": {
-        # https://mybinder.org/v2/gh/daobook/pybook/main
+        # https://mybinder.org/v2/gh/daobook/pygallery/main
         "binderhub_url": "https://mybinder.org",
         # "jupyterhub_url": "https://datahub.berkeley.edu",  # For testing
         "colab_url": "https://colab.research.google.com/",
@@ -257,7 +251,7 @@ html_theme_options = {
     "icon_links": [
         # {
         #     "name": "GitHub",
-        #     "url": "https://github.com/daobook/pybook",
+        #     "url": "https://github.com/daobook/pygallery",
         #     "icon": "fa-brands fa-square-github",
         #     "type": "fontawesome",
         # },
@@ -344,7 +338,7 @@ autodoc_member_order = "groupwise"
 
 # -- Options for autoapi -------------------------------------------------------
 autoapi_type = "python"
-autoapi_dirs = ["../src/pybook"]
+autoapi_dirs = ["../src/pygallery"]
 autoapi_keep_files = True # 要开始自己编写 API 文档，你可以让 AutoAPI 保留其生成的文件作为基础
 autoapi_root = "api"
 autoapi_member_order = "groupwise"
