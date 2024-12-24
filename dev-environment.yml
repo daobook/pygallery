@@ -11,4 +11,4 @@ dependencies:
     - black
     - voici
     - pip:
-        - .[doc]
+        - .[doc,dev,gui]

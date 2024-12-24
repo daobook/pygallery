@@ -23,6 +23,7 @@ Documentation = "https://taolib.readthedocs.io/"
 
 [project.optional-dependencies]
 doc = [
+  "manim",
   "fabric",
   "termcolor",
   "sphinx",
