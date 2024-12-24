@@ -15,8 +15,8 @@
 
 学无止境！
 
-[pypi-badge]: https://img.shields.io/pypi/v/pygallery.svg
-[pypi-link]: https://pypi.org/project/pygallery/
+[pypi-badge]: https://img.shields.io/pypi/v/d2py.svg
+[pypi-link]: https://pypi.org/project/d2py/
 [issue-badge]: https://img.shields.io/github/issues/daobook/pygallery
 [issue-link]: https://github.com/daobook/pygallery/issues
 [fork-badge]: https://img.shields.io/github/forks/daobook/pygallery
@@ -31,12 +31,12 @@
 [watcher-link]: https://github.com/daobook/pygallery/watchers
 [binder-badge]: https://mybinder.org/badge_logo.svg
 [binder-link]: https://mybinder.org/v2/gh/daobook/pygallery/main
-[install-badge]: https://img.shields.io/pypi/dw/pygallery?label=pypi%20installs
-[install-link]: https://pypistats.org/packages/pygallery
+[install-badge]: https://img.shields.io/pypi/dw/d2py?label=pypi%20installs
+[install-link]: https://pypistats.org/packages/d2py
 [status-badge]: https://readthedocs.org/projects/pygallery/badge/?version=latest
 [status-link]: https://pygallery.readthedocs.io/zh-cn/latest/?badge=latest
-[download-badge]: https://pepy.tech/badge/pygallery
-[download-link]: https://pepy.tech/project/pygallery
+[download-badge]: https://pepy.tech/badge/d2py
+[download-link]: https://pepy.tech/project/d2py
 
 ## 文档模板
 

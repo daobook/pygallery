@@ -6,6 +6,7 @@ sys.path.extend([str(ROOT/'src')])
 if not hasattr(inspect, 'getargspec'): # 修复
     inspect.getargspec = inspect.getfullargspec
     
-from tao.tools.write import site
+from taolib.flows.tasks import sites
 
-namespace = site('doc', target='doc/_build/html')
+namespace = sites('doc', target='doc/_build/html')
+
