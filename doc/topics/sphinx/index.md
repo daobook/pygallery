@@ -4,5 +4,4 @@
 helloworld
 thebe/index
 sphinx-proof/index
-myst-nb/index
 ```
