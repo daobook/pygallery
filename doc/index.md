@@ -11,6 +11,7 @@ pythonx/index
 tasks/index
 libs/index
 jupyter/index
+study/index
 compiler
 topics/index
 posts/index
