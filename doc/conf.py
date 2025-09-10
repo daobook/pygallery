@@ -27,6 +27,7 @@ nb_execution_excludepatterns = [
     "libs/qt/**/**",
     "libs/ipywidgets/**/**",
     "topics/**/**",
+    "libs/cppyy/**/**",
 ]
 nb_execution_excludepatterns.extend([ 
     f"libs/{name}/*.ipynb"
